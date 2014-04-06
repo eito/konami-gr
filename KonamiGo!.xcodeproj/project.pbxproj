@@ -16,22 +16,8 @@
 		4ED78FE818F12DDF001B8547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED78FE618F12DDF001B8547 /* Main.storyboard */; };
 		4ED78FEB18F12DDF001B8547 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED78FEA18F12DDF001B8547 /* ViewController.m */; };
 		4ED78FED18F12DDF001B8547 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ED78FEC18F12DDF001B8547 /* Images.xcassets */; };
-		4ED78FF418F12DDF001B8547 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED78FF318F12DDF001B8547 /* XCTest.framework */; };
-		4ED78FF518F12DDF001B8547 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED78FD418F12DDF001B8547 /* Foundation.framework */; };
-		4ED78FF618F12DDF001B8547 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED78FD818F12DDF001B8547 /* UIKit.framework */; };
-		4ED78FFE18F12DDF001B8547 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4ED78FFC18F12DDF001B8547 /* InfoPlist.strings */; };
-		4ED7900018F12DDF001B8547 /* KonamiGo_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED78FFF18F12DDF001B8547 /* KonamiGo_Tests.m */; };
+		4ED7900C18F12E23001B8547 /* KONAMIGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED7900B18F12E23001B8547 /* KONAMIGestureRecognizer.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4ED78FF718F12DDF001B8547 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4ED78FC918F12DDF001B8547 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4ED78FD018F12DDF001B8547;
-			remoteInfo = "KonamiGo!";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4ED78FD118F12DDF001B8547 /* KonamiGo!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KonamiGo!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,11 +34,9 @@
 		4ED78FE918F12DDF001B8547 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4ED78FEA18F12DDF001B8547 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4ED78FEC18F12DDF001B8547 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4ED78FF218F12DDF001B8547 /* KonamiGo!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KonamiGo!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED78FF318F12DDF001B8547 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		4ED78FFB18F12DDF001B8547 /* KonamiGo!Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KonamiGo!Tests-Info.plist"; sourceTree = "<group>"; };
-		4ED78FFD18F12DDF001B8547 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4ED78FFF18F12DDF001B8547 /* KonamiGo_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KonamiGo_Tests.m; sourceTree = "<group>"; };
+		4ED7900A18F12E23001B8547 /* KONAMIGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KONAMIGestureRecognizer.h; path = KonamiGR/KONAMIGestureRecognizer.h; sourceTree = "<group>"; };
+		4ED7900B18F12E23001B8547 /* KONAMIGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KONAMIGestureRecognizer.m; path = KonamiGR/KONAMIGestureRecognizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,16 +50,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4ED78FEF18F12DDF001B8547 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4ED78FF418F12DDF001B8547 /* XCTest.framework in Frameworks */,
-				4ED78FF618F12DDF001B8547 /* UIKit.framework in Frameworks */,
-				4ED78FF518F12DDF001B8547 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				4ED78FDA18F12DDF001B8547 /* KonamiGo! */,
-				4ED78FF918F12DDF001B8547 /* KonamiGo!Tests */,
 				4ED78FD318F12DDF001B8547 /* Frameworks */,
 				4ED78FD218F12DDF001B8547 /* Products */,
 			);
@@ -93,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				4ED78FD118F12DDF001B8547 /* KonamiGo!.app */,
-				4ED78FF218F12DDF001B8547 /* KonamiGo!Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +84,7 @@
 		4ED78FDA18F12DDF001B8547 /* KonamiGo! */ = {
 			isa = PBXGroup;
 			children = (
+				4ED7900918F12DFA001B8547 /* KonamiGR */,
 				4ED78FE318F12DDF001B8547 /* AppDelegate.h */,
 				4ED78FE418F12DDF001B8547 /* AppDelegate.m */,
 				4ED78FE618F12DDF001B8547 /* Main.storyboard */,
@@ -134,22 +107,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4ED78FF918F12DDF001B8547 /* KonamiGo!Tests */ = {
+		4ED7900918F12DFA001B8547 /* KonamiGR */ = {
 			isa = PBXGroup;
 			children = (
-				4ED78FFF18F12DDF001B8547 /* KonamiGo_Tests.m */,
-				4ED78FFA18F12DDF001B8547 /* Supporting Files */,
+				4ED7900A18F12E23001B8547 /* KONAMIGestureRecognizer.h */,
+				4ED7900B18F12E23001B8547 /* KONAMIGestureRecognizer.m */,
 			);
-			path = "KonamiGo!Tests";
-			sourceTree = "<group>";
-		};
-		4ED78FFA18F12DDF001B8547 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4ED78FFB18F12DDF001B8547 /* KonamiGo!Tests-Info.plist */,
-				4ED78FFC18F12DDF001B8547 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			name = KonamiGR;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,24 +136,6 @@
 			productReference = 4ED78FD118F12DDF001B8547 /* KonamiGo!.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4ED78FF118F12DDF001B8547 /* KonamiGo!Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4ED7900618F12DDF001B8547 /* Build configuration list for PBXNativeTarget "KonamiGo!Tests" */;
-			buildPhases = (
-				4ED78FEE18F12DDF001B8547 /* Sources */,
-				4ED78FEF18F12DDF001B8547 /* Frameworks */,
-				4ED78FF018F12DDF001B8547 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4ED78FF818F12DDF001B8547 /* PBXTargetDependency */,
-			);
-			name = "KonamiGo!Tests";
-			productName = "KonamiGo!Tests";
-			productReference = 4ED78FF218F12DDF001B8547 /* KonamiGo!Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,11 +144,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Eric Ito";
-				TargetAttributes = {
-					4ED78FF118F12DDF001B8547 = {
-						TestTargetID = 4ED78FD018F12DDF001B8547;
-					};
-				};
 			};
 			buildConfigurationList = 4ED78FCC18F12DDF001B8547 /* Build configuration list for PBXProject "KonamiGo!" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -218,7 +159,6 @@
 			projectRoot = "";
 			targets = (
 				4ED78FD018F12DDF001B8547 /* KonamiGo! */,
-				4ED78FF118F12DDF001B8547 /* KonamiGo!Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,14 +174,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4ED78FF018F12DDF001B8547 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4ED78FFE18F12DDF001B8547 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -251,27 +183,12 @@
 			files = (
 				4ED78FEB18F12DDF001B8547 /* ViewController.m in Sources */,
 				4ED78FE518F12DDF001B8547 /* AppDelegate.m in Sources */,
+				4ED7900C18F12E23001B8547 /* KONAMIGestureRecognizer.m in Sources */,
 				4ED78FE118F12DDF001B8547 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4ED78FEE18F12DDF001B8547 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4ED7900018F12DDF001B8547 /* KonamiGo_Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4ED78FF818F12DDF001B8547 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4ED78FD018F12DDF001B8547 /* KonamiGo! */;
-			targetProxy = 4ED78FF718F12DDF001B8547 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4ED78FDD18F12DDF001B8547 /* InfoPlist.strings */ = {
@@ -288,14 +205,6 @@
 				4ED78FE718F12DDF001B8547 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4ED78FFC18F12DDF001B8547 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4ED78FFD18F12DDF001B8547 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -397,46 +306,6 @@
 			};
 			name = Release;
 		};
-		4ED7900718F12DDF001B8547 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KonamiGo!.app/KonamiGo!";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KonamiGo!/KonamiGo!-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "KonamiGo!Tests/KonamiGo!Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		4ED7900818F12DDF001B8547 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KonamiGo!.app/KonamiGo!";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KonamiGo!/KonamiGo!-Prefix.pch";
-				INFOPLIST_FILE = "KonamiGo!Tests/KonamiGo!Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -454,14 +323,6 @@
 			buildConfigurations = (
 				4ED7900418F12DDF001B8547 /* Debug */,
 				4ED7900518F12DDF001B8547 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		4ED7900618F12DDF001B8547 /* Build configuration list for PBXNativeTarget "KonamiGo!Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4ED7900718F12DDF001B8547 /* Debug */,
-				4ED7900818F12DDF001B8547 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
